@@ -1,0 +1,151 @@
+.header {
+    width: 100%;
+    background-color: rgb(50, 48, 48);
+    height: 55px;
+
+}
+
+.header_space_left {
+    width: 5%;
+    height: 50px;
+    float: left;
+
+}
+
+.header_space_center {
+    width: 65%;
+    height: 50px;
+    float: left;
+}
+
+.header_ul {
+    float: left;
+}
+
+.link_1 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link_2 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link_3 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.search_box {
+    width: 30%;
+    height: 55px;
+    float: right;
+    text-align: center;
+}
+
+.text_box {
+    border-radius: 5px
+}
+
+.submit_button {
+    background-color: rgb(47, 44, 44);
+    color: white;
+    border-radius: 5px;
+}
+
+.green_section {
+    width: 100%;
+    background-color: green;
+    height: 160px;
+}
+
+.green_section_left_space {
+    width: 12%;
+    float: left;
+    height: 160px;
+}
+
+.green_section_center_space {
+    width: 90%;
+}
+
+.green_section_title {
+    font-size: 30px;
+    line-height: 2.0;
+}
+
+.green_section_right_space {
+    width: 8%;
+    float: right;
+    height: 160px;
+}
+
+.pink_section {
+    width: 100%;
+    background-color: pink;
+    height: 160px;
+}
+
+.pink_section_left_space {
+    width: 12%;
+    float: left;
+    height: 160px
+}
+
+.green_section_center_space {
+    width: 90%;
+}
+
+.pink_section_title {
+    font-size: 30px;
+    line-height: 2.0;
+}
+
+.pink_section_right_space {
+    width: 8%;
+    float: right;
+    height: 160px;
+}
+
+.white_section {
+    width: 100%;
+    background-color: white;
+    height: 160px;
+}
+
+.white_section_left_space {
+    width: 12%;
+    float: left;
+    height: 160px;
+}
+
+.white_section_center_space {
+    width: 90%;
+}
+
+.white_section_title {
+    font-size: 30px;
+    line-height: 2.0;
+
+}
+
+.white_section_right_space {
+    width: 8%;
+    float: right;
+    height: 160px;
+}
+
+.footer_section {
+    width: 100%;
+    background-color: rgb(50, 48, 48);
+    height: 55px;
+    color: white;
+}
+
+.footer_text {
+    text-align: center;
+}
