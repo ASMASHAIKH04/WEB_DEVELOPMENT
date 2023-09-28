@@ -1,7 +1,7 @@
 # WEB_DEVELOPMENT
 Semester III web development tasks
 TABLE: using HTML and CSS
-WEBPAGE:using HTML and CSS
+WEBPAGE:using HTML and CSS 
 RESPONSIVE WEBPAGE: using HTML,BOOTSTRAP and CSS (external)
 SIMPLE: RESPONSIVE WEBPAGE: HTML, BOOTSTRAP, and CSS (external) 
 RESUME: using HTML,BOOTSTRAP and CSS (external)
