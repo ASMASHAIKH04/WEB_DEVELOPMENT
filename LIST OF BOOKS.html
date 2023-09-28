@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EXPT 3A-6009220209-ASMA SHAIKH </title>
+</head>
+<body>
+    <h1>Book List</h1>
+
+    <div>
+        <label for="bookName">Book Name:</label>
+        <input type="text" id="bookName" placeholder="Enter book name">
+    </div>
+    <br>
+    <div>
+        <label for="author">Author:</label>
+        <input type="text" id="author" placeholder="Enter author's name">
+    </div>
+    <br>
+    <div>
+        <button onclick="addBook()">Add Book</button>
+    </div>
+
+    <h2>Books:</h2>
+    <ul id="bookList">
+    </ul>
+
+    <script>
+        function addBook() {
+            var bookName = document.getElementById("bookName").value;
+            var author = document.getElementById("author").value;
+
+            if (bookName && author) {
+                var bookList = document.getElementById("bookList");
+                var listItem = document.createElement("li");
+                listItem.textContent = bookName + " by " + author;
+                bookList.appendChild(listItem);
+
+                // Clear input fields
+                document.getElementById("bookName").value = "";
+                document.getElementById("author").value = "";
+            }
+        }
+    </script>
+</body>
+</html>
+
